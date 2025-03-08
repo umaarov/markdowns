@@ -1,1 +1,18 @@
-
+{
+  "version": "1.0",
+  "lastUpdated": "2025-03-08",
+  "courses": [
+    {
+      "id": "001_html",
+      "active": true,
+      "featured": true,
+      "order": 1
+    },
+    {
+      "id": "002_js",
+      "active": true,
+      "featured": false,
+      "order": 2
+    },
+  ]
+}
