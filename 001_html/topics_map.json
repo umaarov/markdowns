@@ -1,0 +1,21 @@
+{
+  "version": "1.0",
+  "lastUpdated": "2025-03-09",
+  "topics": [
+    {
+      "id": "01_introduction",
+      "active": true,
+      "order": 1
+    },
+    {
+      "id": "02_elements",
+      "active": true,
+      "order": 2
+    },
+    {
+      "id": "03_tags",
+      "active": true,
+      "order": 3
+    }
+  ]
+}
