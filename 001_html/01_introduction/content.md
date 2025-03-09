@@ -1,245 +1,65 @@
----
-__Advertisement :)__
+# Introduction to HTML
 
-- __[pica](https://nodeca.github.io/pica/demo/)__ - high quality and fast image
-  resize in browser.
-- __[babelfish](https://github.com/nodeca/babelfish/)__ - developer friendly
-  i18n with plurals support and easy syntax.
+## Part 1: History and Origin of HTML
 
-You will like those projects!
+HTML (HyperText Markup Language) was created in the early 1990s. It was developed by Tim Berners-Lee while working at CERN. The first version of HTML was released in 1993.
 
----
+![Tim Berners-Lee](https://example.com/tim-berners-lee.jpg)
 
-# h1 Heading 8-)
-## h2 Heading
-### h3 Heading
-#### h4 Heading
-##### h5 Heading
-###### h6 Heading
+Initially, HTML was designed as a simple way to structure scientific documents. It quickly evolved to support more features as the web grew in popularity. The World Wide Web Consortium (W3C) was formed in 1994 to standardize HTML.
 
+HTML 2.0 was the first standard specification of HTML, published in 1995. HTML 3.2 followed in 1997, adding many new features including tables and support for stylesheets.
 
-## Horizontal Rules
+The major breakthrough came with HTML 4.01 in 1999, which is still widely used today. After HTML 4, development split into two paths: XHTML and HTML5.
 
-___
+## Part 2: What Can Be Done with HTML
 
----
+HTML is the backbone of any website. It provides the basic structure of a page using a system of elements and tags.
 
-***
+With HTML, you can create:
+- Text content with various headings, paragraphs, and formatting
+- Links to other pages or resources
+- Images and multimedia content
+- Forms for user input
+- Lists, tables, and structured data
 
+![HTML Structure Example](https://example.com/html-structure.jpg)
 
-## Typographic replacements
+HTML works with CSS (Cascading Style Sheets) for styling. This separation allows for better maintainability and design flexibility. JavaScript adds interactivity to static HTML pages.
 
-Enable typographer option to see result.
+Modern web development relies heavily on HTML5, which introduced semantic elements. These elements give meaning to the structure of content (like `<header>`, `<footer>`, `<article>`).
 
-(c) (C) (r) (R) (tm) (TM) (p) (P) +-
+HTML5 also added support for audio and video without requiring plugins. Canvas elements enable dynamic, scriptable rendering of graphics.
 
-test.. test... test..... test?..... test!....
+## Part 3: Getting Started with HTML
 
-!!!!!! ???? ,,  -- ---
+Creating an HTML document is simple. You only need a text editor and a web browser.
 
-"Smartypants, double quotes" and 'single quotes'
+A basic HTML document structure looks like this:
 
-
-## Emphasis
-
-**This is bold text**
-
-__This is bold text__
-
-*This is italic text*
-
-_This is italic text_
-
-~~Strikethrough~~
-
-
-## Blockquotes
-
-
-> Blockquotes can also be nested...
->> ...by using additional greater-than signs right next to each other...
-> > > ...or with spaces between arrows.
-
-
-## Lists
-
-Unordered
-
-+ Create a list by starting a line with `+`, `-`, or `*`
-+ Sub-lists are made by indenting 2 spaces:
-  - Marker character change forces new list start:
-    * Ac tristique libero volutpat at
-    + Facilisis in pretium nisl aliquet
-    - Nulla volutpat aliquam velit
-+ Very easy!
-
-Ordered
-
-1. Lorem ipsum dolor sit amet
-2. Consectetur adipiscing elit
-3. Integer molestie lorem at massa
-
-
-1. You can use sequential numbers...
-1. ...or keep all the numbers as `1.`
-
-Start numbering with offset:
-
-57. foo
-1. bar
-
-
-## Code
-
-Inline `code`
-
-Indented code
-
-    // Some comments
-    line 1 of code
-    line 2 of code
-    line 3 of code
-
-
-Block code "fences"
-
-```
-Sample text here...
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My First HTML Page</title>
+</head>
+<body>
+    <h1>Hello, World!</h1>
+    <p>This is my first HTML document.</p>
+</body>
+</html>
 ```
 
-Syntax highlighting
+Save this code with a `.html` extension. Open it in any web browser to see the result.
 
-``` js
-var foo = function (bar) {
-  return bar++;
-};
+The most important HTML tags to learn first include:
+- `<html>`: The root element
+- `<head>`: Contains meta information
+- `<title>`: Sets the page title
+- `<body>`: Contains the visible content
+- `<h1>` to `<h6>`: Heading elements
+- `<p>`: Paragraph elements
+- `<a>`: Link elements
+- `<img>`: Image elements
 
-console.log(foo(5));
-```
-
-## Tables
-
-| Option | Description |
-| ------ | ----------- |
-| data   | path to data files to supply the data that will be passed into templates. |
-| engine | engine to be used for processing templates. Handlebars is the default. |
-| ext    | extension to be used for dest files. |
-
-Right aligned columns
-
-| Option | Description |
-| ------:| -----------:|
-| data   | path to data files to supply the data that will be passed into templates. |
-| engine | engine to be used for processing templates. Handlebars is the default. |
-| ext    | extension to be used for dest files. |
-
-
-## Links
-
-[link text](http://dev.nodeca.com)
-
-[link with title](http://nodeca.github.io/pica/demo/ "title text!")
-
-Autoconverted link https://github.com/nodeca/pica (enable linkify to see)
-
-
-## Images
-
-![Minion](https://octodex.github.com/images/minion.png)
-![Stormtroopocat](https://octodex.github.com/images/stormtroopocat.jpg "The Stormtroopocat")
-
-Like links, Images also have a footnote style syntax
-
-![Alt text][id]
-
-With a reference later in the document defining the URL location:
-
-[id]: https://octodex.github.com/images/dojocat.jpg  "The Dojocat"
-
-
-## Plugins
-
-The killer feature of `markdown-it` is very effective support of
-[syntax plugins](https://www.npmjs.org/browse/keyword/markdown-it-plugin).
-
-
-### [Emojies](https://github.com/markdown-it/markdown-it-emoji)
-
-> Classic markup: :wink: :cry: :laughing: :yum:
->
-> Shortcuts (emoticons): :-) :-( 8-) ;)
-
-see [how to change output](https://github.com/markdown-it/markdown-it-emoji#change-output) with twemoji.
-
-
-### [Subscript](https://github.com/markdown-it/markdown-it-sub) / [Superscript](https://github.com/markdown-it/markdown-it-sup)
-
-- 19^th^
-- H~2~O
-
-
-### [\<ins>](https://github.com/markdown-it/markdown-it-ins)
-
-++Inserted text++
-
-
-### [\<mark>](https://github.com/markdown-it/markdown-it-mark)
-
-==Marked text==
-
-
-### [Footnotes](https://github.com/markdown-it/markdown-it-footnote)
-
-Footnote 1 link[^first].
-
-Footnote 2 link[^second].
-
-Inline footnote^[Text of inline footnote] definition.
-
-Duplicated footnote reference[^second].
-
-[^first]: Footnote **can have markup**
-
-    and multiple paragraphs.
-
-[^second]: Footnote text.
-
-
-### [Definition lists](https://github.com/markdown-it/markdown-it-deflist)
-
-Term 1
-
-:   Definition 1
-with lazy continuation.
-
-Term 2 with *inline markup*
-
-:   Definition 2
-
-        { some code, part of Definition 2 }
-
-    Third paragraph of definition 2.
-
-_Compact style:_
-
-Term 1
-  ~ Definition 1
-
-Term 2
-  ~ Definition 2a
-  ~ Definition 2b
-
-
-### [Abbreviations](https://github.com/markdown-it/markdown-it-abbr)
-
-This is HTML abbreviation example.
-
-It converts "HTML", but keep intact partial entries like "xxxHTMLyyy" and so on.
-
-*[HTML]: Hyper Text Markup Language
-
-### [Custom containers](https://github.com/markdown-it/markdown-it-container)
-
-::: warning
-*here be dragons*
-:::
+HTML is easy to learn but takes practice to master. The best way to learn is by building your own web pages from scratch.
