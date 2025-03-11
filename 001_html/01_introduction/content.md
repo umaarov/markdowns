@@ -4,7 +4,7 @@
 
 HTML (HyperText Markup Language) was created in the early 1990s. It was developed by Tim Berners-Lee while working at CERN. The first version of HTML was released in 1993.
 
-[Photo](https://www.alleycat.org/wp-content/uploads/2019/03/FELV-cat.jpg)
+![Photo](https://www.alleycat.org/wp-content/uploads/2019/03/FELV-cat.jpg)
 
 Initially, HTML was designed as a simple way to structure scientific documents. It quickly evolved to support more features as the web grew in popularity. The World Wide Web Consortium (W3C) was formed in 1994 to standardize HTML.
 
