@@ -4,7 +4,7 @@
 
 HTML (HyperText Markup Language) was created in the early 1990s. It was developed by Tim Berners-Lee while working at CERN. The first version of HTML was released in 1993.
 
-![Tim Berners-Lee](https://example.com/tim-berners-lee.jpg)
+![Tim Berners-Lee](https://www.alleycat.org/wp-content/uploads/2019/03/FELV-cat.jpg)
 
 Initially, HTML was designed as a simple way to structure scientific documents. It quickly evolved to support more features as the web grew in popularity. The World Wide Web Consortium (W3C) was formed in 1994 to standardize HTML.
 
@@ -23,7 +23,7 @@ With HTML, you can create:
 - Forms for user input
 - Lists, tables, and structured data
 
-![HTML Structure Example](https://example.com/html-structure.jpg)
+![HTML Structure Example](https://www.alleycat.org/wp-content/uploads/2019/03/FELV-cat.jpg)
 
 HTML works with CSS (Cascading Style Sheets) for styling. This separation allows for better maintainability and design flexibility. JavaScript adds interactivity to static HTML pages.
 
